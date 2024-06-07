@@ -1,0 +1,62 @@
+#input{
+    width:100%;
+    padding: 20px;
+    border: 1px solid gray;
+    background: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.inputtext{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.temprature{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+}
+
+.details{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cityname{
+    font-size: 30px;
+}
+#date{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.temp{
+    padding: 30px;
+    border: 5px dashed black;
+    border-radius: 5px;
+}
+
+#temprature{
+    font-size: 100px;
+}
+
+#type{
+    font-size: 25px;
+}
+
+.container{
+    height: 100vh;
+    background-image: url('cold_weather.jpg');
+    background-size: cover;
+}
